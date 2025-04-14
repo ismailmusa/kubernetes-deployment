@@ -1,6 +1,6 @@
 # 📦 Kubernetes Deployment for MongoDB and Mongo Express
 
-This repository offers a practical example of deploying a MongoDB database alongside the Mongo Express web-based MongoDB admin interface within a Kubernetes cluster. It provides a set of YAML configuration files to facilitate the deployment, configuration, and exposure of these services.
+This project demonstrates how to deploy a MongoDB database together with Mongo Express—a web-based MongoDB admin interface—within a Kubernetes cluster. It includes a collection of YAML configuration files to simplify deployment, configuration, and service exposure.
 
 ## 🔧 What's Included
 
