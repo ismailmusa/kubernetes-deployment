@@ -29,9 +29,9 @@ This repository offers a practical example of deploying a MongoDB database along
    git clone https://github.com/ismailmusa/kubernetes-deployment.git
    
    cd kubernetes-deployment
-
-   Apply Configurations:
    
+Apply the Kubernetes Configurations: Run the following commands to deploy MongoDB, Mongo Express, and supporting resources:
+
 kubectl apply -f secret.yml
 
 kubectl apply -f configmap.yml
@@ -42,7 +42,7 @@ kubectl apply -f mongo-express-deployment.yml
 
 kubectl apply -f ingress.yml
 
-Verify Deployments:
+Verify the Deployments: Ensure that the pods, services, and ingress resources are running correctly:
 
 kubectl get pods
 
