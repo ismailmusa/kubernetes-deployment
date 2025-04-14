@@ -26,6 +26,7 @@ This repository provides a simple and practical example of deploying a container
    
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
+
 kubectl get pods
 kubectl get services
 
